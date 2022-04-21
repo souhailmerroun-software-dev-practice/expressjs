@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/souhailmerroun-practice/expressjs/issues"
   },
-  "homepage": "https://github.com/souhailmerroun-practice/expressjs#readme"
+  "homepage": "https://github.com/souhailmerroun-practice/expressjs#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "firebase": "^9.6.11"
+  }
 }
