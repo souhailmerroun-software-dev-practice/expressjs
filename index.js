@@ -4,11 +4,11 @@ const express = require('express');
 const app = express();
 app.use(express.json());
 
+const bodyParser = require('body-parser');
+app.use(bodyParser.json())
+
 const cors = require('cors');
 app.use(cors());
-
-const bodyParser = require('body-parser');
-app.use(bodyParser.json());
 
 const tasksRoutes = require('./routes/tasksRoutes');
 app.use('/api', tasksRoutes.routes);
